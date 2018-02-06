@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<header>
+    <h1>{% include inline-md.html content=page.title %}</h1>
+    
+    {% if page.subtitle %}
+        <p>{% include inline-md.html content=page.subtitle %}</p>
+    {% endif %}
+    
+    {% if page.image %}
+        <img src="{{ page.image }}" alt="{{ page.image_alt }}" />
+    {% endif %}
+    
+    
+</header>
+
+{{ content }}

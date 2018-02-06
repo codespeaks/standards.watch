@@ -1,0 +1,76 @@
+@import "gridlover";
+
+$scale-1: (
+  fontSize: 0.618rem,
+  autoLineCount: 1,
+  autoLineHeight: 0.75rem
+);
+$line-height: map-get($scale0, 'line');
+
+@import "typoreset";
+
+html {
+  color: #333;
+  font-size: map-get($root, 'fontSize');
+  line-height: map-get($root, 'lineHeight');
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: map-get($scale3, 'fontSize');
+  line-height: $line-height * 2;
+  margin-top: $line-height;
+  margin-bottom: $line-height;
+}
+
+h1 strong {
+  color: #333;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: map-get($scale2, 'fontSize');
+  line-height: map-get($scale2, 'autoLineHeight');
+  margin-top: $line-height;
+  margin-bottom: $line-height;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: map-get($scale1, 'fontSize');
+  line-height: map-get($scale1, 'autoLineHeight');
+  margin-top: $line-height;
+  margin-bottom: 0;
+}
+
+h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: map-get($scale1, 'fontSize');
+  margin-top: $line-height;
+}
+
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0rem;
+  margin-bottom: $line-height;
+}
+
+header {
+  margin-bottom: $line-height;
+  
+  h1 {
+    margin-bottom: $line-height / 2;
+  }
+  
+  p {
+    font-size: map-get($scale1, 'fontSize');
+    line-height: $line-height * 1.5;
+    color: #333;
+  }
+}
+
+small {
+  font-size: map-get($scale-1, 'fontSize');
+  line-height: map-get($scale-1, 'autoLineHeight');
+}

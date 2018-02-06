@@ -1,0 +1,22 @@
+---
+---
+
+
+
+@import "mini-reset";
+
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+}
+
+$phone-upper-boundary: 600px;
+$tablet-portrait-upper-boundary: 900px;
+$tablet-landscape-upper-boundary: 1200px;
+
+@import "typography";
+@import "buttons";
+
