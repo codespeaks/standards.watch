@@ -26,7 +26,7 @@ But what if instead you could:
 
 As a former AC Rep, I would have loved to receive this information in my mailbox every week, ready to be shared across my company and to inform strategic decisions.
 
-Today, it's possible to build business intelligence reports of Web standards activity based on data collected from GitHub, mailing lists, IRC channels, and other sources. These reports can be tailoed to your specific needs, and shipped to your inbox, on a weekly, monthly, or quarterly basis.
+Today, it's possible to build business intelligence reports of Web standards activity based on data collected from GitHub, mailing lists, IRC channels, and other sources. These reports can be tailored to your specific needs, and shipped to your inbox, on a weekly, monthly, or quarterly basis.
 
 Before embarking to build such a product, I'd love to see if there's interest from W3C members.
 
